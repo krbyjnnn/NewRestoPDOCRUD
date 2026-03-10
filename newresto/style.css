@@ -1,0 +1,137 @@
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #f4f7f6; 
+    padding: 20px; 
+    color: #333;
+}
+
+.container { 
+    display: flex; 
+    gap: 30px; 
+    max-width: 1200px; 
+    margin: auto; 
+}
+
+.form-container { 
+    width: 350px; 
+    background: white; 
+    padding: 20px; 
+    border-radius: 12px; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+    height: fit-content; 
+}
+
+.form-container h2 {
+    margin-top: 0;
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
+.input-group { 
+    background: #f9f9f9; 
+    padding: 15px; 
+    border-radius: 8px; 
+    margin-bottom: 15px; 
+    border-left: 5px solid #3498db; 
+}
+
+.input-group.dish { 
+    border-left-color: #2ecc71; 
+}
+
+label { 
+    font-weight: bold; 
+    font-size: 14px; 
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select { 
+    width: 100%; 
+    padding: 10px; 
+    margin: 5px 0 12px 0; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    box-sizing: borde.table-container h2 {
+    margin-top: 0;
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}r-box;
+}
+
+button { 
+    width: 100%; 
+    padding: 12px; 
+    background: #3498db; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-weight: bold; 
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+.table-container { 
+    flex-grow: 1; 
+    background: white; 
+    padding: 20px; 
+    border-radius: 12px; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+th, td { 
+    padding: 12px; 
+    text-align: left; 
+    border-bottom: 1px solid #eee; 
+}
+
+th {
+    background-color: #f8f9fa;
+    color: #7f8c8d;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.badge { 
+    background: #e8f4fd; 
+    color: #3498db; 
+    padding: 2px 8px; 
+    border-radius: 10px; 
+    font-size: 11px; 
+    font-weight: bold;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cancel-link {
+    display: block; 
+    text-align: center; 
+    margin-top: 15px; 
+    color: #e74c3c;
+}
+
+.table-container h2 {
+    margin-top: 0;
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
